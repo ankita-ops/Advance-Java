@@ -1,19 +1,19 @@
 package cleancode.naming;
 
 class Event {
-  private final int d;
-  private final Time t;
+  private final int day;
+  private final Time time;
 
-  public Event(int d, Time t) {
-    this.d = d;
-    this.t = t;
+  public Event(int day, Time time) {
+    this.day= day;
+    this.time = time;
   }
   public int getDay() {
-    return d;
+    return day;
   }
 
   public Time getTime() {
-    return t;
+    return time;
   }
 
   public boolean canApply() {

@@ -7,6 +7,7 @@ public class Rating {
   private final String rating;
 
   public Rating(String rating) {
+
     this.rating = rating;
   }
 

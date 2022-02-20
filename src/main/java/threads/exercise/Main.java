@@ -1,2 +1,4 @@
-package threads.exercise;public class Main {
+package threads.exercise;
+
+public class Main {
 }

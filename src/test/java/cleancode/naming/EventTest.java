@@ -11,7 +11,7 @@ public class EventTest {
   public void
   Should_return_true_when_the_event_occoured_is_during_working_hours() {
     Time t = new Time(10);
-    Event e = new Event(4, t);
+    Event e= new Event(4, t);
 
     assertTrue(e.canApply());
   }
